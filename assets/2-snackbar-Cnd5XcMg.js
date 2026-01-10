@@ -1,0 +1,2 @@
+import{i as n}from"./vendor-BZoxUzx5.js";const i=document.querySelector(".form");i.addEventListener("submit",e=>{e.preventDefault();const s=Number(i.elements.delay.value),o=i.elements.state.value;console.log(s,o),r(s,o).then(t=>{n.success({message:`✅ Fulfilled promise in ${t}ms`,position:"topRight"})}).catch(t=>{n.error({message:`❌ Rejected promise in ${t}ms`,position:"topRight"})})});function r(e,s){return new Promise((o,t)=>{setTimeout(()=>{s==="fulfilled"?o(e):t(e)},e)})}
+//# sourceMappingURL=2-snackbar-Cnd5XcMg.js.map
